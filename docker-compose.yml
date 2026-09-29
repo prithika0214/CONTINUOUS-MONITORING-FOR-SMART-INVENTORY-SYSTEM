@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  backend-flask:
+    build: .
+    container_name: stockpulse-flask
+    command: python app.py
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./database:/app/database
+    environment:
+      - STOCKPULSE_SECRET_KEY=${STOCKPULSE_SECRET_KEY:?Set STOCKPULSE_SECRET_KEY before starting Docker Compose}
+      - TZ=Asia/Kolkata
+
+  dashboard:
+    build: .
+    container_name: stockpulse-dashboard
+    command: python run_system.py
+    ports:
+      - "8501:8501"
+      - "5001:5000"
+    volumes:
+      - ./database:/app/database
+      - ./data:/app/data
+    environment:
+      - TZ=Asia/Kolkata

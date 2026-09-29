@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Admin Dashboard</title>
+
+    <link rel="stylesheet"
+          href="admin.css">
+
+</head>
+
+<body>
+
+<div class="layout">
+
+    <aside>
+
+        <h1>STOCKPULSE</h1>
+
+        <button onclick="showSection('dashboard')">
+            Dashboard
+        </button>
+
+        <button onclick="showSection('inventory')">
+            Inventory
+        </button>
+
+        <button onclick="showSection('transactions')">
+            Transactions
+        </button>
+
+        <button onclick="showSection('suppliers')">
+            Suppliers
+        </button>
+
+        <button onclick="showSection('alerts')">
+            Alerts
+        </button>
+
+        <button onclick="showSection('requests')">
+            Stock Requests
+        </button>
+
+        <button onclick="showSection('prediction')">
+            Demand Prediction
+        </button>
+
+        <button onclick="logout()">
+            Logout
+        </button>
+
+    </aside>
+
+
+    <main>
+
+        <section id="dashboard">
+
+            <h2>Inventory Command Center</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Total Products</h3>
+                    <p id="totalProducts">0</p>
+                </div>
+
+                <div class="card">
+                    <h3>Low Stock</h3>
+                    <p id="lowStock">0</p>
+                </div>
+
+                <div class="card">
+                    <h3>Out of Stock</h3>
+                    <p id="outStock">0</p>
+                </div>
+
+                <div class="card">
+                    <h3>Inventory Value</h3>
+                    <p id="inventoryValue">₹0</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="inventory" class="hidden">
+
+            <h2>Inventory Management</h2>
+
+            <button onclick="addProduct()">
+                + Add Product
+            </button>
+
+            <table>
+
+                <thead>
+
+                <tr>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Quantity</th>
+                    <th>Minimum</th>
+                    <th>Status</th>
+                </tr>
+
+                </thead>
+
+                <tbody id="inventoryTable"></tbody>
+
+            </table>
+
+        </section>
+
+
+        <section id="alerts" class="hidden">
+
+            <h2>Inventory Alerts</h2>
+
+            <div id="alertList"></div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="admin.js"></script>
+
+</body>
+
+</html>

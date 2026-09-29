@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>User Dashboard</title>
+
+    <link rel="stylesheet"
+          href="user.css">
+
+</head>
+
+<body>
+
+<div class="layout">
+
+    <aside>
+
+        <h1>STOCKPULSE</h1>
+
+        <button onclick="show('home')">
+            Home
+        </button>
+
+        <button onclick="show('products')">
+            Products
+        </button>
+
+        <button onclick="show('requests')">
+            My Requests
+        </button>
+
+        <button onclick="logout()">
+            Logout
+        </button>
+
+    </aside>
+
+
+    <main>
+
+        <section id="home">
+
+            <h2>Welcome to StockPulse</h2>
+
+            <p>
+                Monitor available inventory
+                and submit stock requests.
+            </p>
+
+        </section>
+
+
+        <section id="products"
+                 class="hidden">
+
+            <h2>Available Products</h2>
+
+            <input
+                id="search"
+                placeholder="Search product..."
+                onkeyup="searchProducts()"
+            >
+
+            <div
+                id="productList"
+                class="products">
+            </div>
+
+        </section>
+
+
+        <section id="requests"
+                 class="hidden">
+
+            <h2>My Stock Requests</h2>
+
+            <div id="requestList"></div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="user.js"></script>
+
+</body>
+
+</html>
