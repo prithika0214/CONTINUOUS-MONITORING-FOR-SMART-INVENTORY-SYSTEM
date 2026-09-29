@@ -1,25 +1,1001 @@
 product_id,product_name,category,brand,unit,price_inr,quantity,minimum_stock,supplier,last_updated_ist
-GR001,Premium Basmati Rice 5kg,Rice and Grains,India Gate,pack,699.00,42,10,Shree Grains,2026-09-29T09:30:00+05:30
-GR002,Kolam Rice 1kg,Rice and Grains,Daawat,kg,78.00,86,20,Shree Grains,2026-09-29T09:30:00+05:30
-GR003,Toor Dal 1kg,Pulses and Lentils,Tata Sampann,kg,168.00,34,12,Harvest Wholesale,2026-09-29T09:30:00+05:30
-GR004,Chana Dal 1kg,Pulses and Lentils,Organic Tattva,kg,112.00,28,10,Harvest Wholesale,2026-09-29T09:30:00+05:30
-GR005,Whole Wheat Atta 5kg,Flour and Staples,Aashirvaad,pack,279.00,51,12,Northfield Foods,2026-09-29T09:30:00+05:30
-GR006,Maida 1kg,Flour and Staples,Fortune,kg,54.00,19,8,Northfield Foods,2026-09-29T09:30:00+05:30
-GR007,Refined Sugar 1kg,Sugar and Salt,Madhur,kg,48.00,63,15,Shree Grains,2026-09-29T09:30:00+05:30
-GR008,Iodized Salt 1kg,Sugar and Salt,Tata Salt,kg,28.00,72,18,Shree Grains,2026-09-29T09:30:00+05:30
-GR009,Sunflower Oil 1L,Oils and Ghee,Fortune,L,148.00,39,12,Metro Pantry Supply,2026-09-29T09:30:00+05:30
-GR010,Cow Ghee 500ml,Oils and Ghee,Amul,L,345.00,17,6,Metro Pantry Supply,2026-09-29T09:30:00+05:30
-GR011,Turmeric Powder 200g,Spices and Masalas,Everest,pack,62.00,45,10,Spice Route Distributors,2026-09-29T09:30:00+05:30
-GR012,Kitchen King Masala 100g,Spices and Masalas,MDH,pack,78.00,23,8,Spice Route Distributors,2026-09-29T09:30:00+05:30
-GR013,Toned Milk 1L,Dairy and Eggs,Amul,L,68.00,26,10,Fresh Basket Dairy,2026-09-29T09:30:00+05:30
-GR014,Free Range Eggs,Dairy and Eggs,Eggoz,dozen,108.00,31,10,Fresh Basket Dairy,2026-09-29T09:30:00+05:30
-GR015,Red Onion,Vegetables and Fruits,Local Harvest,kg,42.00,58,15,Green Cart Produce,2026-09-29T09:30:00+05:30
-GR016,Tomato,Vegetables and Fruits,Local Harvest,kg,36.00,44,15,Green Cart Produce,2026-09-29T09:30:00+05:30
-GR017,Robusta Banana,Vegetables and Fruits,Local Harvest,dozen,64.00,22,8,Green Cart Produce,2026-09-29T09:30:00+05:30
-GR018,Classic Salted Potato Chips,Snacks and Packaged Foods,Lay's,pack,20.00,67,20,Metro Pantry Supply,2026-09-29T09:30:00+05:30
-GR019,Marie Biscuits 250g,Snacks and Packaged Foods,Parle,pack,32.00,49,12,Metro Pantry Supply,2026-09-29T09:30:00+05:30
-GR020,Rolled Oats 1kg,Breakfast Products,Saffola,pack,185.00,24,8,Northfield Foods,2026-09-29T09:30:00+05:30
-GR021,California Almonds 200g,Nuts and Dry Fruits,BB Royal,pack,245.00,16,6,Harvest Wholesale,2026-09-29T09:30:00+05:30
-GR022,Premium Cashews 200g,Nuts and Dry Fruits,BB Royal,pack,225.00,18,6,Harvest Wholesale,2026-09-29T09:30:00+05:30
-GR023,Dishwash Liquid 500ml,Household Essentials,Vim,L,112.00,27,8,Homecare Supply Co,2026-09-29T09:30:00+05:30
-GR024,Laundry Detergent Powder 1kg,Household Essentials,Surf Excel,kg,155.00,21,8,Homecare Supply Co,2026-09-29T09:30:00+05:30
+TNF0001,Fish,"Meat, Fish & Eggs",Local,1kg,416.24,248,40,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0002,Milk Powder,Milk & Dairy,Heritage,500g pack,411.47,281,55,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0003,Flavoured Milk,Milk & Dairy,Tata,200ml bottle,324.47,277,71,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0004,Fruit Juice,Beverages,Tata,1L bottle,456.57,275,53,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0005,Appalam,Packaged Food,Aashirvaad,pack,220.74,120,17,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0006,Fruit Juice,Beverages,Local,1L bottle,162.17,73,76,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0007,Flavoured Milk,Milk & Dairy,Local,200ml bottle,342.62,219,43,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0008,Fruit Juice,Beverages,Milky Mist,1L bottle,218.66,51,12,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0009,Papaya,Fresh Fruits,Aashirvaad,1kg,485.88,258,15,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0010,Flavoured Milk,Milk & Dairy,Amul,200ml bottle,327.92,106,76,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0011,Milk Powder,Milk & Dairy,Amul,500g pack,298.7,19,49,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0012,Jam,Packaged Food,Tata,500g jar,209.82,293,68,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0013,Wheat,"Rice, Pulses & Grains",Tata,1kg,165.69,95,42,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0014,Jam,Packaged Food,Milky Mist,500g jar,222.53,310,49,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0015,Jam,Packaged Food,Milky Mist,500g jar,297.94,248,34,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0016,Milk Powder,Milk & Dairy,Aashirvaad,500g pack,24.4,196,48,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0017,Fish,"Meat, Fish & Eggs",Tata,1kg,447.73,195,33,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0018,Fish,"Meat, Fish & Eggs",Nandini,1kg,137.21,315,77,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0019,Appalam,Packaged Food,Milky Mist,pack,178.94,18,44,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0020,Brinjal,Fresh Vegetables,Tata,1kg,474.26,330,31,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0021,Full Cream Milk,Milk & Dairy,Amul,1L,84.13,286,42,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0022,Jam,Packaged Food,Nandini,500g jar,98.12,289,69,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0023,Tea Powder,Beverages,Amul,250g pack,207.93,151,20,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0024,Milk Powder,Milk & Dairy,Tata,500g pack,480.03,262,64,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0025,Appalam,Packaged Food,Local,pack,202.62,305,27,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0026,Fruit Juice,Beverages,Amul,1L bottle,456.88,271,62,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0027,Jam,Packaged Food,Lipton,500g jar,411.17,239,51,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0028,Full Cream Milk,Milk & Dairy,Tata,1L,354.19,348,72,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0029,Jam,Packaged Food,Heritage,500g jar,111.83,326,15,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0030,Wheat,"Rice, Pulses & Grains",Nandini,1kg,229.3,65,51,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0031,Full Cream Milk,Milk & Dairy,Amul,1L,452.97,194,63,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0032,Fruit Juice,Beverages,Nandini,1L bottle,197.58,117,79,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0033,Tea Powder,Beverages,Local,250g pack,79.5,110,16,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0034,Full Cream Milk,Milk & Dairy,Lipton,1L,314.89,12,25,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0035,Flavoured Milk,Milk & Dairy,Milky Mist,200ml bottle,466.57,30,24,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0036,Appalam,Packaged Food,Heritage,pack,87.72,160,53,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0037,Fish,"Meat, Fish & Eggs",Milky Mist,1kg,275.9,202,80,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0038,Full Cream Milk,Milk & Dairy,Nandini,1L,173.13,66,67,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0039,Brinjal,Fresh Vegetables,Tata,1kg,451.54,318,15,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0040,Jam,Packaged Food,Lipton,500g jar,187.99,83,27,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0041,Tea Powder,Beverages,Aashirvaad,250g pack,63.59,156,10,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0042,Full Cream Milk,Milk & Dairy,Nandini,1L,466.11,234,16,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0043,Fruit Juice,Beverages,Tata,1L bottle,174.05,245,36,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0044,Papaya,Fresh Fruits,Nandini,1kg,417.85,162,64,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0045,Appalam,Packaged Food,Nandini,pack,299.75,96,17,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0046,Fish,"Meat, Fish & Eggs",Milky Mist,1kg,348.14,208,79,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0047,Flavoured Milk,Milk & Dairy,Local,200ml bottle,120.82,5,51,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0048,Full Cream Milk,Milk & Dairy,Lipton,1L,21.19,246,27,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0049,Brinjal,Fresh Vegetables,Milky Mist,1kg,113.27,209,34,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0050,Brinjal,Fresh Vegetables,Local,1kg,116.2,101,74,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0051,Wheat,"Rice, Pulses & Grains",Tata,1kg,131.73,313,67,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0052,Brinjal,Fresh Vegetables,Aashirvaad,1kg,219.92,302,20,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0053,Jam,Packaged Food,Nandini,500g jar,318.83,240,64,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0054,Full Cream Milk,Milk & Dairy,Heritage,1L,295.33,291,38,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0055,Flavoured Milk,Milk & Dairy,Milky Mist,200ml bottle,460.97,255,42,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0056,Full Cream Milk,Milk & Dairy,Aashirvaad,1L,266.87,130,43,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0057,Jam,Packaged Food,Local,500g jar,145.75,116,26,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0058,Full Cream Milk,Milk & Dairy,Milky Mist,1L,65.43,230,25,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0059,Appalam,Packaged Food,Aashirvaad,pack,310.42,229,47,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0060,Flavoured Milk,Milk & Dairy,Aashirvaad,200ml bottle,302.74,325,49,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0061,Full Cream Milk,Milk & Dairy,Nandini,1L,260.05,47,23,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0062,Wheat,"Rice, Pulses & Grains",Aashirvaad,1kg,63.71,216,35,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0063,Jam,Packaged Food,Milky Mist,500g jar,234.31,293,62,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0064,Fish,"Meat, Fish & Eggs",Lipton,1kg,371.85,161,64,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0065,Tea Powder,Beverages,Milky Mist,250g pack,358.47,305,44,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0066,Fish,"Meat, Fish & Eggs",Aashirvaad,1kg,432.13,294,70,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0067,Appalam,Packaged Food,Local,pack,456.93,326,10,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0068,Fruit Juice,Beverages,Tata,1L bottle,84.02,195,62,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0069,Brinjal,Fresh Vegetables,Lipton,1kg,306.96,166,23,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0070,Fruit Juice,Beverages,Lipton,1L bottle,72.96,226,44,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0071,Full Cream Milk,Milk & Dairy,Lipton,1L,351.78,22,55,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0072,Fruit Juice,Beverages,Tata,1L bottle,227.99,14,43,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0073,Appalam,Packaged Food,Amul,pack,167.27,298,29,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0074,Appalam,Packaged Food,Lipton,pack,477.26,268,26,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0075,Full Cream Milk,Milk & Dairy,Tata,1L,28.78,343,65,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0076,Appalam,Packaged Food,Milky Mist,pack,407.26,25,58,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0077,Flavoured Milk,Milk & Dairy,Nandini,200ml bottle,26.49,66,60,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0078,Flavoured Milk,Milk & Dairy,Lipton,200ml bottle,257.67,142,79,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0079,Flavoured Milk,Milk & Dairy,Amul,200ml bottle,166.94,294,15,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0080,Fish,"Meat, Fish & Eggs",Nandini,1kg,44.25,76,71,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0081,Flavoured Milk,Milk & Dairy,Tata,200ml bottle,194.83,68,55,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0082,Milk Powder,Milk & Dairy,Heritage,500g pack,370.62,198,71,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0083,Papaya,Fresh Fruits,Nandini,1kg,31.6,135,67,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0084,Appalam,Packaged Food,Nandini,pack,368.31,247,30,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0085,Wheat,"Rice, Pulses & Grains",Local,1kg,318.03,247,48,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0086,Full Cream Milk,Milk & Dairy,Lipton,1L,403.65,304,11,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0087,Tea Powder,Beverages,Milky Mist,250g pack,434.72,136,35,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0088,Tea Powder,Beverages,Heritage,250g pack,48.97,201,62,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0089,Jam,Packaged Food,Heritage,500g jar,412.17,346,40,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0090,Papaya,Fresh Fruits,Lipton,1kg,245.27,100,53,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0091,Wheat,"Rice, Pulses & Grains",Local,1kg,138.98,165,25,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0092,Jam,Packaged Food,Tata,500g jar,177.21,239,53,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0093,Wheat,"Rice, Pulses & Grains",Heritage,1kg,289.86,205,38,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0094,Jam,Packaged Food,Amul,500g jar,196.5,5,39,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0095,Full Cream Milk,Milk & Dairy,Nandini,1L,370.34,334,32,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0096,Milk Powder,Milk & Dairy,Aashirvaad,500g pack,127.85,214,74,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0097,Jam,Packaged Food,Milky Mist,500g jar,442.23,319,12,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0098,Fish,"Meat, Fish & Eggs",Heritage,1kg,134.45,188,37,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0099,Jam,Packaged Food,Amul,500g jar,110.21,302,38,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0100,Tea Powder,Beverages,Lipton,250g pack,293.18,172,17,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0101,Full Cream Milk,Milk & Dairy,Nandini,1L,324.06,6,17,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0102,Fish,"Meat, Fish & Eggs",Heritage,1kg,111.61,344,46,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0103,Full Cream Milk,Milk & Dairy,Aashirvaad,1L,347.4,177,35,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0104,Fruit Juice,Beverages,Tata,1L bottle,33.49,55,12,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0105,Papaya,Fresh Fruits,Heritage,1kg,193.18,278,47,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0106,Fruit Juice,Beverages,Milky Mist,1L bottle,494.23,289,42,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0107,Wheat,"Rice, Pulses & Grains",Nandini,1kg,236.0,252,42,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0108,Milk Powder,Milk & Dairy,Nandini,500g pack,285.93,198,79,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0109,Brinjal,Fresh Vegetables,Milky Mist,1kg,193.41,100,73,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0110,Flavoured Milk,Milk & Dairy,Nandini,200ml bottle,440.6,118,78,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0111,Fruit Juice,Beverages,Heritage,1L bottle,244.56,117,41,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0112,Flavoured Milk,Milk & Dairy,Local,200ml bottle,370.12,237,18,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0113,Wheat,"Rice, Pulses & Grains",Milky Mist,1kg,310.19,13,26,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0114,Jam,Packaged Food,Aashirvaad,500g jar,396.61,253,13,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0115,Tea Powder,Beverages,Milky Mist,250g pack,72.9,42,28,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0116,Full Cream Milk,Milk & Dairy,Lipton,1L,203.84,136,31,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0117,Fish,"Meat, Fish & Eggs",Milky Mist,1kg,303.22,169,49,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0118,Tea Powder,Beverages,Lipton,250g pack,225.66,16,62,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0119,Fish,"Meat, Fish & Eggs",Heritage,1kg,266.59,42,27,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0120,Milk Powder,Milk & Dairy,Heritage,500g pack,478.09,223,13,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0121,Flavoured Milk,Milk & Dairy,Nandini,200ml bottle,233.15,71,69,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0122,Fruit Juice,Beverages,Lipton,1L bottle,370.75,112,80,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0123,Papaya,Fresh Fruits,Heritage,1kg,175.05,202,60,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0124,Appalam,Packaged Food,Milky Mist,pack,150.32,7,11,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0125,Milk Powder,Milk & Dairy,Heritage,500g pack,86.61,141,12,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0126,Full Cream Milk,Milk & Dairy,Tata,1L,356.57,179,13,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0127,Tea Powder,Beverages,Nandini,250g pack,341.82,331,14,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0128,Jam,Packaged Food,Milky Mist,500g jar,86.45,88,14,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0129,Jam,Packaged Food,Local,500g jar,386.08,269,46,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0130,Wheat,"Rice, Pulses & Grains",Heritage,1kg,457.11,45,55,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0131,Flavoured Milk,Milk & Dairy,Tata,200ml bottle,158.35,3,53,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0132,Full Cream Milk,Milk & Dairy,Amul,1L,175.21,214,26,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0133,Papaya,Fresh Fruits,Amul,1kg,415.11,195,12,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0134,Papaya,Fresh Fruits,Aashirvaad,1kg,216.59,312,66,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0135,Milk Powder,Milk & Dairy,Milky Mist,500g pack,139.35,277,51,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0136,Fruit Juice,Beverages,Nandini,1L bottle,313.22,91,57,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0137,Fish,"Meat, Fish & Eggs",Amul,1kg,316.98,125,79,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0138,Wheat,"Rice, Pulses & Grains",Aashirvaad,1kg,330.95,84,29,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0139,Fruit Juice,Beverages,Local,1L bottle,408.53,36,35,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0140,Papaya,Fresh Fruits,Heritage,1kg,50.7,276,45,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0141,Flavoured Milk,Milk & Dairy,Nandini,200ml bottle,455.39,0,70,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0142,Flavoured Milk,Milk & Dairy,Tata,200ml bottle,119.95,44,35,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0143,Papaya,Fresh Fruits,Heritage,1kg,38.33,144,37,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0144,Milk Powder,Milk & Dairy,Local,500g pack,327.1,221,19,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0145,Papaya,Fresh Fruits,Heritage,1kg,461.51,96,67,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0146,Appalam,Packaged Food,Amul,pack,98.74,43,66,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0147,Wheat,"Rice, Pulses & Grains",Aashirvaad,1kg,327.93,183,58,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0148,Appalam,Packaged Food,Tata,pack,278.51,215,71,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0149,Appalam,Packaged Food,Heritage,pack,241.28,7,41,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0150,Milk Powder,Milk & Dairy,Nandini,500g pack,70.59,291,63,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0151,Fish,"Meat, Fish & Eggs",Amul,1kg,263.32,307,13,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0152,Brinjal,Fresh Vegetables,Tata,1kg,229.6,65,42,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0153,Papaya,Fresh Fruits,Milky Mist,1kg,160.53,32,76,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0154,Appalam,Packaged Food,Heritage,pack,475.16,221,33,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0155,Brinjal,Fresh Vegetables,Lipton,1kg,116.92,315,14,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0156,Milk Powder,Milk & Dairy,Lipton,500g pack,35.47,155,31,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0157,Wheat,"Rice, Pulses & Grains",Tata,1kg,173.31,124,43,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0158,Fish,"Meat, Fish & Eggs",Aashirvaad,1kg,40.74,163,66,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0159,Wheat,"Rice, Pulses & Grains",Tata,1kg,397.64,218,34,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0160,Jam,Packaged Food,Tata,500g jar,401.39,158,50,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0161,Wheat,"Rice, Pulses & Grains",Amul,1kg,349.45,164,47,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0162,Milk Powder,Milk & Dairy,Amul,500g pack,335.61,345,53,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0163,Fish,"Meat, Fish & Eggs",Local,1kg,469.67,218,60,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0164,Papaya,Fresh Fruits,Aashirvaad,1kg,370.93,321,51,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0165,Fruit Juice,Beverages,Local,1L bottle,455.85,209,55,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0166,Papaya,Fresh Fruits,Aashirvaad,1kg,401.36,147,15,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0167,Appalam,Packaged Food,Milky Mist,pack,447.54,80,59,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0168,Jam,Packaged Food,Nandini,500g jar,340.19,310,64,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0169,Flavoured Milk,Milk & Dairy,Nandini,200ml bottle,172.55,79,54,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0170,Wheat,"Rice, Pulses & Grains",Aashirvaad,1kg,180.29,54,80,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0171,Brinjal,Fresh Vegetables,Amul,1kg,325.19,146,79,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0172,Full Cream Milk,Milk & Dairy,Aashirvaad,1L,240.35,35,65,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0173,Tea Powder,Beverages,Milky Mist,250g pack,194.02,72,24,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0174,Tea Powder,Beverages,Milky Mist,250g pack,70.74,130,14,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0175,Full Cream Milk,Milk & Dairy,Local,1L,110.81,126,39,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0176,Brinjal,Fresh Vegetables,Amul,1kg,185.49,174,71,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0177,Full Cream Milk,Milk & Dairy,Aashirvaad,1L,326.49,60,23,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0178,Jam,Packaged Food,Lipton,500g jar,276.98,241,24,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0179,Wheat,"Rice, Pulses & Grains",Milky Mist,1kg,400.47,6,50,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0180,Milk Powder,Milk & Dairy,Milky Mist,500g pack,101.7,6,21,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0181,Papaya,Fresh Fruits,Nandini,1kg,126.59,263,77,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0182,Milk Powder,Milk & Dairy,Tata,500g pack,184.44,59,16,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0183,Papaya,Fresh Fruits,Nandini,1kg,203.94,193,41,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0184,Tea Powder,Beverages,Aashirvaad,250g pack,328.93,150,40,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0185,Milk Powder,Milk & Dairy,Aashirvaad,500g pack,32.27,199,12,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0186,Fish,"Meat, Fish & Eggs",Milky Mist,1kg,393.38,299,30,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0187,Papaya,Fresh Fruits,Heritage,1kg,141.74,36,49,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0188,Brinjal,Fresh Vegetables,Heritage,1kg,294.19,123,47,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0189,Papaya,Fresh Fruits,Amul,1kg,109.95,273,47,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0190,Wheat,"Rice, Pulses & Grains",Amul,1kg,213.54,38,38,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0191,Jam,Packaged Food,Local,500g jar,295.58,264,37,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0192,Milk Powder,Milk & Dairy,Aashirvaad,500g pack,119.17,142,14,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0193,Wheat,"Rice, Pulses & Grains",Heritage,1kg,440.07,201,29,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0194,Milk Powder,Milk & Dairy,Nandini,500g pack,284.25,130,47,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0195,Wheat,"Rice, Pulses & Grains",Heritage,1kg,453.68,205,26,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0196,Fruit Juice,Beverages,Nandini,1L bottle,455.68,108,70,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0197,Appalam,Packaged Food,Amul,pack,358.5,347,39,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0198,Tea Powder,Beverages,Local,250g pack,68.26,176,22,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0199,Tea Powder,Beverages,Amul,250g pack,419.37,341,51,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0200,Tea Powder,Beverages,Tata,250g pack,292.92,222,26,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0201,Fruit Juice,Beverages,Aashirvaad,1L bottle,99.03,178,50,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0202,Brinjal,Fresh Vegetables,Milky Mist,1kg,347.05,22,34,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0203,Appalam,Packaged Food,Heritage,pack,295.73,34,11,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0204,Jam,Packaged Food,Lipton,500g jar,266.81,82,26,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0205,Milk Powder,Milk & Dairy,Nandini,500g pack,32.98,67,25,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0206,Full Cream Milk,Milk & Dairy,Amul,1L,396.47,249,56,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0207,Full Cream Milk,Milk & Dairy,Local,1L,256.81,311,13,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0208,Tea Powder,Beverages,Tata,250g pack,156.51,28,63,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0209,Full Cream Milk,Milk & Dairy,Tata,1L,258.25,49,59,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0210,Wheat,"Rice, Pulses & Grains",Heritage,1kg,446.75,57,70,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0211,Papaya,Fresh Fruits,Milky Mist,1kg,168.3,286,49,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0212,Jam,Packaged Food,Amul,500g jar,91.85,78,24,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0213,Tea Powder,Beverages,Heritage,250g pack,271.0,129,51,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0214,Papaya,Fresh Fruits,Heritage,1kg,71.4,279,31,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0215,Papaya,Fresh Fruits,Nandini,1kg,476.24,151,32,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0216,Wheat,"Rice, Pulses & Grains",Nandini,1kg,350.05,220,75,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0217,Papaya,Fresh Fruits,Local,1kg,188.67,244,27,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0218,Flavoured Milk,Milk & Dairy,Local,200ml bottle,314.8,147,18,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0219,Fish,"Meat, Fish & Eggs",Milky Mist,1kg,477.08,93,41,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0220,Fish,"Meat, Fish & Eggs",Tata,1kg,181.66,322,18,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0221,Flavoured Milk,Milk & Dairy,Milky Mist,200ml bottle,191.09,52,55,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0222,Wheat,"Rice, Pulses & Grains",Lipton,1kg,450.63,185,17,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0223,Jam,Packaged Food,Milky Mist,500g jar,354.85,293,72,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0224,Brinjal,Fresh Vegetables,Aashirvaad,1kg,256.86,238,37,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0225,Tea Powder,Beverages,Aashirvaad,250g pack,456.37,9,59,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0226,Fish,"Meat, Fish & Eggs",Amul,1kg,380.99,133,22,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0227,Jam,Packaged Food,Amul,500g jar,78.91,298,69,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0228,Full Cream Milk,Milk & Dairy,Local,1L,244.76,275,71,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0229,Wheat,"Rice, Pulses & Grains",Lipton,1kg,158.26,307,13,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0230,Jam,Packaged Food,Amul,500g jar,139.46,65,19,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0231,Fish,"Meat, Fish & Eggs",Tata,1kg,421.65,302,33,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0232,Milk Powder,Milk & Dairy,Lipton,500g pack,260.5,305,27,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0233,Fruit Juice,Beverages,Lipton,1L bottle,304.16,103,30,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0234,Fruit Juice,Beverages,Milky Mist,1L bottle,309.78,245,29,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0235,Wheat,"Rice, Pulses & Grains",Nandini,1kg,415.58,174,75,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0236,Appalam,Packaged Food,Tata,pack,406.69,81,33,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0237,Brinjal,Fresh Vegetables,Aashirvaad,1kg,375.01,224,39,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0238,Flavoured Milk,Milk & Dairy,Milky Mist,200ml bottle,284.76,57,25,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0239,Brinjal,Fresh Vegetables,Nandini,1kg,56.84,320,76,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0240,Flavoured Milk,Milk & Dairy,Lipton,200ml bottle,312.29,28,27,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0241,Flavoured Milk,Milk & Dairy,Tata,200ml bottle,77.43,135,55,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0242,Wheat,"Rice, Pulses & Grains",Nandini,1kg,459.73,20,20,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0243,Appalam,Packaged Food,Milky Mist,pack,28.1,210,75,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0244,Fruit Juice,Beverages,Milky Mist,1L bottle,171.77,189,73,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0245,Wheat,"Rice, Pulses & Grains",Milky Mist,1kg,150.68,112,62,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0246,Fruit Juice,Beverages,Lipton,1L bottle,296.28,140,23,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0247,Jam,Packaged Food,Amul,500g jar,456.41,229,31,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0248,Tea Powder,Beverages,Aashirvaad,250g pack,138.2,115,14,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0249,Full Cream Milk,Milk & Dairy,Tata,1L,321.13,1,25,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0250,Fish,"Meat, Fish & Eggs",Heritage,1kg,30.49,112,23,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0251,Tea Powder,Beverages,Heritage,250g pack,370.75,76,24,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0252,Tea Powder,Beverages,Lipton,250g pack,143.56,175,74,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0253,Fruit Juice,Beverages,Heritage,1L bottle,267.78,272,25,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0254,Papaya,Fresh Fruits,Local,1kg,160.65,133,38,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0255,Flavoured Milk,Milk & Dairy,Amul,200ml bottle,185.95,287,22,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0256,Full Cream Milk,Milk & Dairy,Amul,1L,285.22,100,78,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0257,Wheat,"Rice, Pulses & Grains",Tata,1kg,218.54,340,42,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0258,Appalam,Packaged Food,Nandini,pack,162.35,52,19,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0259,Brinjal,Fresh Vegetables,Heritage,1kg,186.04,284,17,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0260,Papaya,Fresh Fruits,Amul,1kg,78.9,147,58,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0261,Papaya,Fresh Fruits,Heritage,1kg,155.78,280,18,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0262,Papaya,Fresh Fruits,Aashirvaad,1kg,330.46,169,13,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0263,Flavoured Milk,Milk & Dairy,Aashirvaad,200ml bottle,305.63,349,28,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0264,Fish,"Meat, Fish & Eggs",Local,1kg,41.19,232,16,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0265,Brinjal,Fresh Vegetables,Milky Mist,1kg,209.06,116,56,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0266,Wheat,"Rice, Pulses & Grains",Nandini,1kg,214.9,339,41,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0267,Fruit Juice,Beverages,Aashirvaad,1L bottle,22.8,256,29,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0268,Brinjal,Fresh Vegetables,Local,1kg,150.21,95,23,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0269,Tea Powder,Beverages,Tata,250g pack,379.15,95,49,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0270,Flavoured Milk,Milk & Dairy,Lipton,200ml bottle,490.39,268,26,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0271,Wheat,"Rice, Pulses & Grains",Heritage,1kg,209.45,77,16,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0272,Papaya,Fresh Fruits,Milky Mist,1kg,459.88,19,36,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0273,Flavoured Milk,Milk & Dairy,Aashirvaad,200ml bottle,82.42,170,35,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0274,Full Cream Milk,Milk & Dairy,Tata,1L,221.99,60,22,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0275,Fruit Juice,Beverages,Lipton,1L bottle,194.64,119,31,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0276,Fish,"Meat, Fish & Eggs",Tata,1kg,408.8,14,18,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0277,Milk Powder,Milk & Dairy,Amul,500g pack,269.5,287,57,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0278,Brinjal,Fresh Vegetables,Milky Mist,1kg,473.43,51,14,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0279,Fruit Juice,Beverages,Heritage,1L bottle,285.82,65,29,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0280,Full Cream Milk,Milk & Dairy,Local,1L,452.22,21,79,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0281,Jam,Packaged Food,Aashirvaad,500g jar,127.08,59,36,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0282,Jam,Packaged Food,Local,500g jar,34.08,156,12,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0283,Jam,Packaged Food,Heritage,500g jar,73.97,66,67,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0284,Full Cream Milk,Milk & Dairy,Milky Mist,1L,170.28,18,50,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0285,Milk Powder,Milk & Dairy,Amul,500g pack,149.28,104,53,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0286,Full Cream Milk,Milk & Dairy,Amul,1L,316.4,330,46,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0287,Brinjal,Fresh Vegetables,Lipton,1kg,328.19,8,32,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0288,Papaya,Fresh Fruits,Lipton,1kg,465.66,258,69,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0289,Tea Powder,Beverages,Nandini,250g pack,444.54,337,16,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0290,Fish,"Meat, Fish & Eggs",Lipton,1kg,28.5,50,76,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0291,Brinjal,Fresh Vegetables,Aashirvaad,1kg,350.67,309,67,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0292,Fish,"Meat, Fish & Eggs",Heritage,1kg,472.26,116,30,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0293,Fish,"Meat, Fish & Eggs",Local,1kg,497.41,306,77,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0294,Full Cream Milk,Milk & Dairy,Nandini,1L,340.94,349,17,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0295,Fish,"Meat, Fish & Eggs",Heritage,1kg,80.32,87,77,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0296,Brinjal,Fresh Vegetables,Milky Mist,1kg,207.9,110,30,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0297,Brinjal,Fresh Vegetables,Tata,1kg,221.96,320,27,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0298,Fish,"Meat, Fish & Eggs",Local,1kg,362.94,309,47,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0299,Appalam,Packaged Food,Local,pack,352.04,208,47,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0300,Fish,"Meat, Fish & Eggs",Milky Mist,1kg,355.51,240,52,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0301,Flavoured Milk,Milk & Dairy,Amul,200ml bottle,315.01,313,23,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0302,Fruit Juice,Beverages,Lipton,1L bottle,128.61,94,14,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0303,Full Cream Milk,Milk & Dairy,Local,1L,117.34,165,63,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0304,Flavoured Milk,Milk & Dairy,Aashirvaad,200ml bottle,424.95,60,48,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0305,Full Cream Milk,Milk & Dairy,Heritage,1L,182.19,141,75,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0306,Flavoured Milk,Milk & Dairy,Local,200ml bottle,391.56,191,25,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0307,Papaya,Fresh Fruits,Amul,1kg,379.66,222,42,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0308,Papaya,Fresh Fruits,Local,1kg,117.06,33,28,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0309,Full Cream Milk,Milk & Dairy,Tata,1L,454.58,277,40,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0310,Papaya,Fresh Fruits,Tata,1kg,218.99,55,20,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0311,Flavoured Milk,Milk & Dairy,Lipton,200ml bottle,41.47,99,60,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0312,Jam,Packaged Food,Nandini,500g jar,158.99,66,71,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0313,Fish,"Meat, Fish & Eggs",Local,1kg,322.58,336,61,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0314,Full Cream Milk,Milk & Dairy,Local,1L,214.4,99,22,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0315,Papaya,Fresh Fruits,Amul,1kg,33.79,1,56,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0316,Flavoured Milk,Milk & Dairy,Lipton,200ml bottle,466.69,223,68,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0317,Milk Powder,Milk & Dairy,Milky Mist,500g pack,243.45,102,58,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0318,Full Cream Milk,Milk & Dairy,Local,1L,301.28,92,78,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0319,Fish,"Meat, Fish & Eggs",Heritage,1kg,301.96,55,59,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0320,Fruit Juice,Beverages,Lipton,1L bottle,64.15,42,11,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0321,Brinjal,Fresh Vegetables,Tata,1kg,317.23,13,63,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0322,Fish,"Meat, Fish & Eggs",Lipton,1kg,370.23,171,45,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0323,Fish,"Meat, Fish & Eggs",Local,1kg,400.53,265,17,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0324,Appalam,Packaged Food,Heritage,pack,187.21,104,49,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0325,Brinjal,Fresh Vegetables,Heritage,1kg,272.59,196,56,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0326,Tea Powder,Beverages,Tata,250g pack,447.69,33,10,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0327,Wheat,"Rice, Pulses & Grains",Nandini,1kg,45.23,331,78,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0328,Flavoured Milk,Milk & Dairy,Nandini,200ml bottle,146.59,37,62,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0329,Fish,"Meat, Fish & Eggs",Amul,1kg,145.38,254,36,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0330,Full Cream Milk,Milk & Dairy,Heritage,1L,178.63,186,49,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0331,Jam,Packaged Food,Nandini,500g jar,451.76,262,27,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0332,Full Cream Milk,Milk & Dairy,Local,1L,242.91,203,60,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0333,Fruit Juice,Beverages,Nandini,1L bottle,233.06,228,27,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0334,Brinjal,Fresh Vegetables,Local,1kg,52.27,144,25,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0335,Flavoured Milk,Milk & Dairy,Milky Mist,200ml bottle,325.89,236,10,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0336,Brinjal,Fresh Vegetables,Amul,1kg,214.2,142,32,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0337,Papaya,Fresh Fruits,Heritage,1kg,298.4,170,17,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0338,Wheat,"Rice, Pulses & Grains",Lipton,1kg,388.99,110,20,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0339,Tea Powder,Beverages,Heritage,250g pack,102.54,328,45,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0340,Papaya,Fresh Fruits,Lipton,1kg,351.99,89,21,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0341,Full Cream Milk,Milk & Dairy,Nandini,1L,401.45,161,59,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0342,Wheat,"Rice, Pulses & Grains",Milky Mist,1kg,210.31,132,77,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0343,Flavoured Milk,Milk & Dairy,Local,200ml bottle,439.62,251,46,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0344,Brinjal,Fresh Vegetables,Nandini,1kg,240.89,235,17,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0345,Tea Powder,Beverages,Milky Mist,250g pack,141.86,155,36,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0346,Brinjal,Fresh Vegetables,Local,1kg,460.54,41,76,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0347,Jam,Packaged Food,Nandini,500g jar,243.75,212,34,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0348,Jam,Packaged Food,Nandini,500g jar,128.11,35,68,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0349,Flavoured Milk,Milk & Dairy,Milky Mist,200ml bottle,251.05,341,25,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0350,Tea Powder,Beverages,Nandini,250g pack,302.14,276,53,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0351,Appalam,Packaged Food,Nandini,pack,469.4,229,11,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0352,Flavoured Milk,Milk & Dairy,Nandini,200ml bottle,67.52,173,15,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0353,Jam,Packaged Food,Heritage,500g jar,174.52,139,33,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0354,Brinjal,Fresh Vegetables,Nandini,1kg,188.89,228,74,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0355,Brinjal,Fresh Vegetables,Tata,1kg,317.96,48,63,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0356,Brinjal,Fresh Vegetables,Amul,1kg,56.63,47,65,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0357,Wheat,"Rice, Pulses & Grains",Milky Mist,1kg,388.82,347,53,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0358,Flavoured Milk,Milk & Dairy,Nandini,200ml bottle,430.59,130,49,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0359,Wheat,"Rice, Pulses & Grains",Milky Mist,1kg,202.93,92,41,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0360,Wheat,"Rice, Pulses & Grains",Amul,1kg,95.75,85,35,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0361,Milk Powder,Milk & Dairy,Local,500g pack,203.83,127,24,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0362,Tea Powder,Beverages,Local,250g pack,339.89,84,59,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0363,Wheat,"Rice, Pulses & Grains",Nandini,1kg,340.49,38,74,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0364,Papaya,Fresh Fruits,Aashirvaad,1kg,354.62,232,34,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0365,Milk Powder,Milk & Dairy,Heritage,500g pack,365.98,182,38,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0366,Fruit Juice,Beverages,Lipton,1L bottle,95.34,242,20,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0367,Milk Powder,Milk & Dairy,Heritage,500g pack,267.24,151,52,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0368,Appalam,Packaged Food,Heritage,pack,440.16,228,24,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0369,Flavoured Milk,Milk & Dairy,Nandini,200ml bottle,100.88,181,51,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0370,Milk Powder,Milk & Dairy,Lipton,500g pack,422.14,79,27,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0371,Wheat,"Rice, Pulses & Grains",Nandini,1kg,66.07,78,22,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0372,Milk Powder,Milk & Dairy,Nandini,500g pack,147.5,136,78,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0373,Wheat,"Rice, Pulses & Grains",Heritage,1kg,290.26,158,65,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0374,Wheat,"Rice, Pulses & Grains",Milky Mist,1kg,29.7,320,73,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0375,Flavoured Milk,Milk & Dairy,Local,200ml bottle,398.05,287,12,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0376,Appalam,Packaged Food,Local,pack,161.83,332,67,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0377,Brinjal,Fresh Vegetables,Amul,1kg,102.91,106,37,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0378,Milk Powder,Milk & Dairy,Milky Mist,500g pack,369.78,83,47,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0379,Fruit Juice,Beverages,Lipton,1L bottle,393.36,262,66,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0380,Papaya,Fresh Fruits,Heritage,1kg,405.34,66,17,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0381,Tea Powder,Beverages,Heritage,250g pack,51.74,80,76,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0382,Milk Powder,Milk & Dairy,Heritage,500g pack,290.31,113,14,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0383,Brinjal,Fresh Vegetables,Amul,1kg,154.8,162,12,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0384,Wheat,"Rice, Pulses & Grains",Aashirvaad,1kg,156.11,146,37,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0385,Papaya,Fresh Fruits,Amul,1kg,431.38,343,31,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0386,Flavoured Milk,Milk & Dairy,Aashirvaad,200ml bottle,114.27,23,43,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0387,Wheat,"Rice, Pulses & Grains",Nandini,1kg,144.61,250,51,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0388,Wheat,"Rice, Pulses & Grains",Heritage,1kg,444.19,147,62,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0389,Full Cream Milk,Milk & Dairy,Milky Mist,1L,151.88,336,44,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0390,Fruit Juice,Beverages,Lipton,1L bottle,464.48,326,29,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0391,Brinjal,Fresh Vegetables,Tata,1kg,274.3,23,17,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0392,Brinjal,Fresh Vegetables,Milky Mist,1kg,254.6,323,15,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0393,Brinjal,Fresh Vegetables,Milky Mist,1kg,486.8,130,19,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0394,Flavoured Milk,Milk & Dairy,Amul,200ml bottle,298.59,194,46,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0395,Wheat,"Rice, Pulses & Grains",Aashirvaad,1kg,202.61,348,15,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0396,Tea Powder,Beverages,Tata,250g pack,364.73,42,29,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0397,Wheat,"Rice, Pulses & Grains",Local,1kg,138.01,274,73,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0398,Fish,"Meat, Fish & Eggs",Heritage,1kg,52.89,272,49,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0399,Tea Powder,Beverages,Nandini,250g pack,276.72,276,29,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0400,Wheat,"Rice, Pulses & Grains",Aashirvaad,1kg,188.06,22,76,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0401,Full Cream Milk,Milk & Dairy,Amul,1L,299.88,76,36,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0402,Tea Powder,Beverages,Lipton,250g pack,433.22,98,67,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0403,Papaya,Fresh Fruits,Tata,1kg,52.14,130,54,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0404,Fruit Juice,Beverages,Lipton,1L bottle,28.52,343,65,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0405,Flavoured Milk,Milk & Dairy,Tata,200ml bottle,97.27,218,11,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0406,Fruit Juice,Beverages,Nandini,1L bottle,65.63,307,70,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0407,Jam,Packaged Food,Local,500g jar,289.51,315,43,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0408,Fish,"Meat, Fish & Eggs",Local,1kg,472.82,8,45,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0409,Fruit Juice,Beverages,Amul,1L bottle,132.2,153,54,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0410,Fruit Juice,Beverages,Local,1L bottle,204.01,67,42,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0411,Fruit Juice,Beverages,Milky Mist,1L bottle,155.99,73,76,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0412,Appalam,Packaged Food,Aashirvaad,pack,405.8,61,33,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0413,Flavoured Milk,Milk & Dairy,Amul,200ml bottle,154.32,114,29,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0414,Fruit Juice,Beverages,Heritage,1L bottle,398.55,161,32,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0415,Jam,Packaged Food,Heritage,500g jar,348.43,23,77,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0416,Fish,"Meat, Fish & Eggs",Aashirvaad,1kg,239.66,171,62,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0417,Fruit Juice,Beverages,Nandini,1L bottle,27.54,306,35,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0418,Jam,Packaged Food,Lipton,500g jar,197.79,137,23,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0419,Wheat,"Rice, Pulses & Grains",Tata,1kg,121.84,63,80,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0420,Tea Powder,Beverages,Milky Mist,250g pack,20.77,267,35,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0421,Brinjal,Fresh Vegetables,Heritage,1kg,491.48,16,51,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0422,Jam,Packaged Food,Amul,500g jar,179.7,153,20,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0423,Appalam,Packaged Food,Nandini,pack,311.98,299,59,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0424,Wheat,"Rice, Pulses & Grains",Heritage,1kg,249.02,160,11,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0425,Fruit Juice,Beverages,Nandini,1L bottle,124.71,347,56,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0426,Wheat,"Rice, Pulses & Grains",Aashirvaad,1kg,215.7,172,35,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0427,Flavoured Milk,Milk & Dairy,Milky Mist,200ml bottle,193.76,32,38,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0428,Papaya,Fresh Fruits,Heritage,1kg,322.38,282,13,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0429,Brinjal,Fresh Vegetables,Heritage,1kg,320.75,185,52,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0430,Fruit Juice,Beverages,Milky Mist,1L bottle,114.01,19,50,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0431,Fruit Juice,Beverages,Amul,1L bottle,21.5,316,66,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0432,Papaya,Fresh Fruits,Tata,1kg,244.57,139,44,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0433,Flavoured Milk,Milk & Dairy,Aashirvaad,200ml bottle,474.31,54,52,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0434,Milk Powder,Milk & Dairy,Tata,500g pack,323.83,115,46,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0435,Fruit Juice,Beverages,Local,1L bottle,73.61,241,69,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0436,Appalam,Packaged Food,Heritage,pack,146.68,318,51,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0437,Fish,"Meat, Fish & Eggs",Heritage,1kg,149.43,311,79,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0438,Brinjal,Fresh Vegetables,Tata,1kg,264.16,258,76,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0439,Jam,Packaged Food,Heritage,500g jar,214.3,135,50,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0440,Milk Powder,Milk & Dairy,Lipton,500g pack,405.7,18,17,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0441,Flavoured Milk,Milk & Dairy,Nandini,200ml bottle,212.12,322,74,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0442,Jam,Packaged Food,Nandini,500g jar,368.63,218,14,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0443,Fruit Juice,Beverages,Aashirvaad,1L bottle,370.56,80,15,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0444,Milk Powder,Milk & Dairy,Heritage,500g pack,336.89,294,61,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0445,Fruit Juice,Beverages,Local,1L bottle,188.17,59,58,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0446,Flavoured Milk,Milk & Dairy,Lipton,200ml bottle,471.63,283,11,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0447,Brinjal,Fresh Vegetables,Lipton,1kg,315.41,280,79,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0448,Fruit Juice,Beverages,Amul,1L bottle,357.78,115,55,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0449,Tea Powder,Beverages,Amul,250g pack,459.18,216,10,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0450,Milk Powder,Milk & Dairy,Heritage,500g pack,153.53,136,54,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0451,Papaya,Fresh Fruits,Heritage,1kg,257.54,239,23,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0452,Appalam,Packaged Food,Milky Mist,pack,270.16,290,66,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0453,Fish,"Meat, Fish & Eggs",Nandini,1kg,264.56,341,42,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0454,Full Cream Milk,Milk & Dairy,Milky Mist,1L,430.41,123,21,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0455,Brinjal,Fresh Vegetables,Local,1kg,245.92,73,43,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0456,Milk Powder,Milk & Dairy,Amul,500g pack,218.82,236,26,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0457,Wheat,"Rice, Pulses & Grains",Heritage,1kg,133.48,56,37,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0458,Full Cream Milk,Milk & Dairy,Aashirvaad,1L,127.35,0,10,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0459,Appalam,Packaged Food,Milky Mist,pack,417.17,211,33,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0460,Brinjal,Fresh Vegetables,Amul,1kg,407.3,286,80,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0461,Wheat,"Rice, Pulses & Grains",Nandini,1kg,151.26,166,37,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0462,Milk Powder,Milk & Dairy,Lipton,500g pack,405.5,64,47,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0463,Fish,"Meat, Fish & Eggs",Amul,1kg,221.44,286,11,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0464,Flavoured Milk,Milk & Dairy,Aashirvaad,200ml bottle,49.35,137,32,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0465,Brinjal,Fresh Vegetables,Milky Mist,1kg,49.89,281,37,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0466,Flavoured Milk,Milk & Dairy,Heritage,200ml bottle,326.97,207,57,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0467,Fruit Juice,Beverages,Lipton,1L bottle,383.64,154,66,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0468,Appalam,Packaged Food,Milky Mist,pack,405.25,177,38,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0469,Fish,"Meat, Fish & Eggs",Local,1kg,174.22,335,33,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0470,Fruit Juice,Beverages,Heritage,1L bottle,128.42,189,24,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0471,Fruit Juice,Beverages,Aashirvaad,1L bottle,60.56,172,64,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0472,Wheat,"Rice, Pulses & Grains",Lipton,1kg,239.91,24,54,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0473,Papaya,Fresh Fruits,Amul,1kg,180.86,63,26,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0474,Papaya,Fresh Fruits,Aashirvaad,1kg,470.1,93,45,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0475,Tea Powder,Beverages,Tata,250g pack,151.61,295,57,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0476,Appalam,Packaged Food,Lipton,pack,183.84,315,58,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0477,Flavoured Milk,Milk & Dairy,Lipton,200ml bottle,188.98,114,45,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0478,Appalam,Packaged Food,Local,pack,268.6,153,40,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0479,Papaya,Fresh Fruits,Lipton,1kg,128.52,172,53,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0480,Fish,"Meat, Fish & Eggs",Aashirvaad,1kg,258.63,307,52,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0481,Fish,"Meat, Fish & Eggs",Lipton,1kg,143.63,35,71,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0482,Wheat,"Rice, Pulses & Grains",Tata,1kg,466.41,338,25,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0483,Appalam,Packaged Food,Tata,pack,257.57,138,67,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0484,Jam,Packaged Food,Local,500g jar,475.75,73,74,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0485,Fish,"Meat, Fish & Eggs",Tata,1kg,391.85,102,57,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0486,Fish,"Meat, Fish & Eggs",Tata,1kg,115.58,200,12,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0487,Jam,Packaged Food,Amul,500g jar,52.12,179,37,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0488,Flavoured Milk,Milk & Dairy,Local,200ml bottle,395.31,32,61,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0489,Brinjal,Fresh Vegetables,Milky Mist,1kg,124.67,199,35,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0490,Fish,"Meat, Fish & Eggs",Milky Mist,1kg,360.44,139,61,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0491,Tea Powder,Beverages,Local,250g pack,115.91,68,14,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0492,Fish,"Meat, Fish & Eggs",Amul,1kg,234.97,290,17,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0493,Flavoured Milk,Milk & Dairy,Milky Mist,200ml bottle,317.2,142,66,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0494,Jam,Packaged Food,Aashirvaad,500g jar,76.74,212,60,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0495,Brinjal,Fresh Vegetables,Aashirvaad,1kg,70.73,21,10,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0496,Jam,Packaged Food,Milky Mist,500g jar,211.25,168,51,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0497,Fish,"Meat, Fish & Eggs",Tata,1kg,148.36,73,14,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0498,Tea Powder,Beverages,Local,250g pack,407.07,268,25,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0499,Fruit Juice,Beverages,Amul,1L bottle,253.99,26,58,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0500,Papaya,Fresh Fruits,Aashirvaad,1kg,229.1,114,27,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0501,Wheat,"Rice, Pulses & Grains",Milky Mist,1kg,363.48,328,41,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0502,Wheat,"Rice, Pulses & Grains",Local,1kg,378.95,347,22,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0503,Milk Powder,Milk & Dairy,Amul,500g pack,330.98,343,44,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0504,Papaya,Fresh Fruits,Milky Mist,1kg,342.12,290,38,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0505,Jam,Packaged Food,Nandini,500g jar,208.38,69,64,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0506,Fish,"Meat, Fish & Eggs",Local,1kg,273.99,189,53,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0507,Jam,Packaged Food,Nandini,500g jar,200.57,154,13,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0508,Wheat,"Rice, Pulses & Grains",Lipton,1kg,245.94,343,35,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0509,Milk Powder,Milk & Dairy,Tata,500g pack,179.54,90,18,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0510,Appalam,Packaged Food,Tata,pack,133.62,228,42,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0511,Tea Powder,Beverages,Lipton,250g pack,101.34,86,21,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0512,Flavoured Milk,Milk & Dairy,Tata,200ml bottle,249.92,172,71,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0513,Jam,Packaged Food,Aashirvaad,500g jar,341.09,10,36,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0514,Fruit Juice,Beverages,Tata,1L bottle,321.12,280,50,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0515,Brinjal,Fresh Vegetables,Amul,1kg,476.93,252,62,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0516,Full Cream Milk,Milk & Dairy,Local,1L,54.66,142,59,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0517,Appalam,Packaged Food,Milky Mist,pack,21.73,160,66,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0518,Flavoured Milk,Milk & Dairy,Amul,200ml bottle,368.32,29,77,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0519,Appalam,Packaged Food,Aashirvaad,pack,459.57,342,52,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0520,Jam,Packaged Food,Heritage,500g jar,135.64,86,27,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0521,Appalam,Packaged Food,Amul,pack,232.93,233,80,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0522,Papaya,Fresh Fruits,Local,1kg,262.67,213,31,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0523,Fruit Juice,Beverages,Lipton,1L bottle,134.94,176,19,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0524,Papaya,Fresh Fruits,Nandini,1kg,220.34,278,22,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0525,Milk Powder,Milk & Dairy,Amul,500g pack,472.5,220,34,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0526,Papaya,Fresh Fruits,Nandini,1kg,265.06,233,53,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0527,Full Cream Milk,Milk & Dairy,Heritage,1L,156.72,143,44,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0528,Flavoured Milk,Milk & Dairy,Heritage,200ml bottle,262.59,184,34,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0529,Full Cream Milk,Milk & Dairy,Heritage,1L,270.24,211,35,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0530,Wheat,"Rice, Pulses & Grains",Lipton,1kg,243.57,13,22,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0531,Tea Powder,Beverages,Local,250g pack,48.05,265,35,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0532,Full Cream Milk,Milk & Dairy,Tata,1L,194.5,143,26,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0533,Flavoured Milk,Milk & Dairy,Lipton,200ml bottle,415.06,327,21,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0534,Flavoured Milk,Milk & Dairy,Heritage,200ml bottle,487.01,325,32,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0535,Fish,"Meat, Fish & Eggs",Local,1kg,449.35,131,63,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0536,Jam,Packaged Food,Amul,500g jar,329.44,167,37,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0537,Jam,Packaged Food,Nandini,500g jar,56.62,82,10,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0538,Full Cream Milk,Milk & Dairy,Local,1L,41.14,293,38,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0539,Fish,"Meat, Fish & Eggs",Heritage,1kg,51.52,145,21,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0540,Tea Powder,Beverages,Amul,250g pack,236.0,331,19,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0541,Appalam,Packaged Food,Tata,pack,210.48,107,30,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0542,Tea Powder,Beverages,Aashirvaad,250g pack,124.99,168,31,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0543,Full Cream Milk,Milk & Dairy,Milky Mist,1L,147.53,114,17,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0544,Tea Powder,Beverages,Nandini,250g pack,474.95,97,50,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0545,Fish,"Meat, Fish & Eggs",Lipton,1kg,264.08,317,76,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0546,Full Cream Milk,Milk & Dairy,Local,1L,213.88,228,61,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0547,Papaya,Fresh Fruits,Amul,1kg,39.99,303,18,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0548,Papaya,Fresh Fruits,Nandini,1kg,420.98,231,15,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0549,Milk Powder,Milk & Dairy,Tata,500g pack,364.1,336,55,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0550,Tea Powder,Beverages,Aashirvaad,250g pack,405.52,42,23,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0551,Brinjal,Fresh Vegetables,Aashirvaad,1kg,347.5,287,29,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0552,Milk Powder,Milk & Dairy,Lipton,500g pack,339.97,50,32,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0553,Jam,Packaged Food,Nandini,500g jar,199.86,13,42,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0554,Brinjal,Fresh Vegetables,Nandini,1kg,57.47,269,74,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0555,Papaya,Fresh Fruits,Local,1kg,53.76,290,49,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0556,Milk Powder,Milk & Dairy,Nandini,500g pack,214.07,69,76,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0557,Wheat,"Rice, Pulses & Grains",Aashirvaad,1kg,413.01,165,71,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0558,Papaya,Fresh Fruits,Heritage,1kg,25.29,9,18,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0559,Milk Powder,Milk & Dairy,Amul,500g pack,259.06,73,23,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0560,Tea Powder,Beverages,Amul,250g pack,127.86,341,65,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0561,Brinjal,Fresh Vegetables,Heritage,1kg,188.8,92,20,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0562,Tea Powder,Beverages,Aashirvaad,250g pack,220.54,209,42,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0563,Brinjal,Fresh Vegetables,Lipton,1kg,161.14,313,78,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0564,Papaya,Fresh Fruits,Tata,1kg,219.28,304,65,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0565,Tea Powder,Beverages,Heritage,250g pack,444.6,102,44,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0566,Wheat,"Rice, Pulses & Grains",Tata,1kg,112.07,312,55,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0567,Fruit Juice,Beverages,Aashirvaad,1L bottle,219.98,264,69,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0568,Brinjal,Fresh Vegetables,Milky Mist,1kg,428.93,131,58,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0569,Tea Powder,Beverages,Milky Mist,250g pack,390.7,48,32,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0570,Fish,"Meat, Fish & Eggs",Lipton,1kg,86.52,241,29,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0571,Fruit Juice,Beverages,Local,1L bottle,256.68,116,23,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0572,Wheat,"Rice, Pulses & Grains",Nandini,1kg,273.45,89,28,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0573,Fish,"Meat, Fish & Eggs",Amul,1kg,153.9,113,32,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0574,Wheat,"Rice, Pulses & Grains",Tata,1kg,152.05,21,16,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0575,Brinjal,Fresh Vegetables,Amul,1kg,382.16,298,24,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0576,Fish,"Meat, Fish & Eggs",Lipton,1kg,381.56,40,26,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0577,Milk Powder,Milk & Dairy,Lipton,500g pack,143.82,44,60,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0578,Appalam,Packaged Food,Lipton,pack,56.84,193,68,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0579,Papaya,Fresh Fruits,Milky Mist,1kg,468.58,159,20,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0580,Fish,"Meat, Fish & Eggs",Tata,1kg,410.07,327,67,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0581,Jam,Packaged Food,Local,500g jar,222.09,136,13,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0582,Papaya,Fresh Fruits,Heritage,1kg,402.63,263,70,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0583,Jam,Packaged Food,Milky Mist,500g jar,277.35,86,18,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0584,Jam,Packaged Food,Amul,500g jar,257.21,18,61,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0585,Flavoured Milk,Milk & Dairy,Heritage,200ml bottle,325.63,116,50,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0586,Wheat,"Rice, Pulses & Grains",Tata,1kg,180.83,191,26,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0587,Tea Powder,Beverages,Amul,250g pack,397.94,324,64,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0588,Milk Powder,Milk & Dairy,Amul,500g pack,279.96,348,77,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0589,Appalam,Packaged Food,Tata,pack,365.05,42,19,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0590,Flavoured Milk,Milk & Dairy,Local,200ml bottle,409.21,100,30,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0591,Wheat,"Rice, Pulses & Grains",Aashirvaad,1kg,151.79,40,16,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0592,Fruit Juice,Beverages,Tata,1L bottle,249.59,331,50,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0593,Jam,Packaged Food,Nandini,500g jar,486.58,193,55,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0594,Flavoured Milk,Milk & Dairy,Aashirvaad,200ml bottle,442.47,245,64,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0595,Wheat,"Rice, Pulses & Grains",Heritage,1kg,319.49,147,74,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0596,Wheat,"Rice, Pulses & Grains",Nandini,1kg,300.85,29,70,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0597,Full Cream Milk,Milk & Dairy,Milky Mist,1L,276.66,308,17,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0598,Fruit Juice,Beverages,Nandini,1L bottle,435.53,29,75,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0599,Papaya,Fresh Fruits,Nandini,1kg,467.86,339,65,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0600,Flavoured Milk,Milk & Dairy,Milky Mist,200ml bottle,395.57,77,31,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0601,Fish,"Meat, Fish & Eggs",Lipton,1kg,439.42,87,24,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0602,Papaya,Fresh Fruits,Tata,1kg,405.22,338,51,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0603,Wheat,"Rice, Pulses & Grains",Tata,1kg,244.79,338,28,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0604,Wheat,"Rice, Pulses & Grains",Aashirvaad,1kg,223.48,68,30,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0605,Papaya,Fresh Fruits,Nandini,1kg,150.26,218,43,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0606,Milk Powder,Milk & Dairy,Aashirvaad,500g pack,118.25,10,57,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0607,Flavoured Milk,Milk & Dairy,Tata,200ml bottle,499.85,31,11,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0608,Fish,"Meat, Fish & Eggs",Nandini,1kg,434.97,300,32,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0609,Milk Powder,Milk & Dairy,Amul,500g pack,257.79,325,75,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0610,Appalam,Packaged Food,Milky Mist,pack,225.98,163,76,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0611,Fish,"Meat, Fish & Eggs",Lipton,1kg,38.6,181,27,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0612,Tea Powder,Beverages,Aashirvaad,250g pack,52.33,65,47,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0613,Jam,Packaged Food,Heritage,500g jar,161.35,226,42,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0614,Full Cream Milk,Milk & Dairy,Milky Mist,1L,123.95,257,61,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0615,Flavoured Milk,Milk & Dairy,Lipton,200ml bottle,308.57,1,38,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0616,Milk Powder,Milk & Dairy,Aashirvaad,500g pack,163.38,169,32,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0617,Full Cream Milk,Milk & Dairy,Lipton,1L,268.7,23,30,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0618,Full Cream Milk,Milk & Dairy,Heritage,1L,50.77,262,36,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0619,Wheat,"Rice, Pulses & Grains",Nandini,1kg,371.21,245,20,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0620,Brinjal,Fresh Vegetables,Heritage,1kg,274.13,316,61,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0621,Jam,Packaged Food,Lipton,500g jar,417.82,171,74,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0622,Appalam,Packaged Food,Aashirvaad,pack,187.93,81,77,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0623,Jam,Packaged Food,Heritage,500g jar,41.1,34,61,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0624,Fruit Juice,Beverages,Tata,1L bottle,301.59,5,47,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0625,Brinjal,Fresh Vegetables,Tata,1kg,52.87,132,29,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0626,Appalam,Packaged Food,Amul,pack,131.28,323,19,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0627,Fruit Juice,Beverages,Milky Mist,1L bottle,311.58,39,78,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0628,Fish,"Meat, Fish & Eggs",Local,1kg,195.01,302,39,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0629,Appalam,Packaged Food,Heritage,pack,127.83,22,30,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0630,Tea Powder,Beverages,Local,250g pack,467.07,126,29,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0631,Appalam,Packaged Food,Nandini,pack,472.34,143,75,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0632,Tea Powder,Beverages,Amul,250g pack,267.01,171,52,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0633,Wheat,"Rice, Pulses & Grains",Aashirvaad,1kg,117.9,257,24,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0634,Milk Powder,Milk & Dairy,Nandini,500g pack,444.08,1,12,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0635,Tea Powder,Beverages,Tata,250g pack,42.65,124,55,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0636,Full Cream Milk,Milk & Dairy,Amul,1L,403.79,80,59,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0637,Tea Powder,Beverages,Amul,250g pack,95.8,313,58,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0638,Fruit Juice,Beverages,Amul,1L bottle,134.3,279,25,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0639,Fruit Juice,Beverages,Tata,1L bottle,211.15,312,80,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0640,Milk Powder,Milk & Dairy,Local,500g pack,274.32,245,39,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0641,Fruit Juice,Beverages,Nandini,1L bottle,442.1,159,12,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0642,Full Cream Milk,Milk & Dairy,Lipton,1L,290.71,21,69,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0643,Flavoured Milk,Milk & Dairy,Nandini,200ml bottle,312.64,133,50,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0644,Brinjal,Fresh Vegetables,Amul,1kg,350.41,167,64,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0645,Fruit Juice,Beverages,Heritage,1L bottle,283.59,142,32,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0646,Wheat,"Rice, Pulses & Grains",Heritage,1kg,187.25,238,24,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0647,Full Cream Milk,Milk & Dairy,Tata,1L,310.04,176,41,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0648,Full Cream Milk,Milk & Dairy,Milky Mist,1L,71.19,269,55,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0649,Brinjal,Fresh Vegetables,Milky Mist,1kg,259.13,203,22,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0650,Milk Powder,Milk & Dairy,Amul,500g pack,382.71,233,36,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0651,Tea Powder,Beverages,Tata,250g pack,355.75,342,70,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0652,Milk Powder,Milk & Dairy,Local,500g pack,127.64,101,35,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0653,Tea Powder,Beverages,Milky Mist,250g pack,317.09,155,44,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0654,Fruit Juice,Beverages,Amul,1L bottle,281.66,173,73,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0655,Fruit Juice,Beverages,Aashirvaad,1L bottle,205.65,325,21,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0656,Milk Powder,Milk & Dairy,Nandini,500g pack,52.61,108,78,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0657,Jam,Packaged Food,Heritage,500g jar,78.65,28,30,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0658,Full Cream Milk,Milk & Dairy,Lipton,1L,58.74,216,56,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0659,Fish,"Meat, Fish & Eggs",Nandini,1kg,339.68,91,51,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0660,Fruit Juice,Beverages,Local,1L bottle,262.71,225,65,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0661,Appalam,Packaged Food,Aashirvaad,pack,437.65,266,76,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0662,Fruit Juice,Beverages,Tata,1L bottle,69.06,289,69,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0663,Milk Powder,Milk & Dairy,Nandini,500g pack,430.51,132,66,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0664,Appalam,Packaged Food,Tata,pack,314.39,25,50,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0665,Wheat,"Rice, Pulses & Grains",Heritage,1kg,289.9,165,14,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0666,Flavoured Milk,Milk & Dairy,Amul,200ml bottle,479.57,30,11,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0667,Fish,"Meat, Fish & Eggs",Aashirvaad,1kg,329.69,271,66,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0668,Fruit Juice,Beverages,Amul,1L bottle,266.01,238,12,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0669,Jam,Packaged Food,Tata,500g jar,21.41,196,12,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0670,Milk Powder,Milk & Dairy,Milky Mist,500g pack,74.44,152,14,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0671,Appalam,Packaged Food,Heritage,pack,346.92,31,29,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0672,Fruit Juice,Beverages,Amul,1L bottle,367.36,226,22,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0673,Fruit Juice,Beverages,Nandini,1L bottle,340.91,323,48,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0674,Appalam,Packaged Food,Nandini,pack,287.2,204,78,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0675,Tea Powder,Beverages,Milky Mist,250g pack,272.26,180,74,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0676,Jam,Packaged Food,Amul,500g jar,62.95,285,22,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0677,Brinjal,Fresh Vegetables,Tata,1kg,23.82,146,79,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0678,Brinjal,Fresh Vegetables,Milky Mist,1kg,302.78,161,25,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0679,Jam,Packaged Food,Milky Mist,500g jar,184.45,0,48,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0680,Brinjal,Fresh Vegetables,Amul,1kg,128.68,131,51,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0681,Fruit Juice,Beverages,Amul,1L bottle,221.65,108,52,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0682,Fruit Juice,Beverages,Heritage,1L bottle,346.22,334,34,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0683,Tea Powder,Beverages,Amul,250g pack,269.35,149,46,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0684,Wheat,"Rice, Pulses & Grains",Heritage,1kg,357.45,118,26,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0685,Flavoured Milk,Milk & Dairy,Aashirvaad,200ml bottle,155.52,213,19,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0686,Appalam,Packaged Food,Tata,pack,288.62,165,74,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0687,Full Cream Milk,Milk & Dairy,Nandini,1L,407.46,164,49,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0688,Fish,"Meat, Fish & Eggs",Aashirvaad,1kg,61.18,185,53,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0689,Full Cream Milk,Milk & Dairy,Nandini,1L,41.63,77,75,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0690,Full Cream Milk,Milk & Dairy,Nandini,1L,250.09,88,55,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0691,Fruit Juice,Beverages,Nandini,1L bottle,311.74,38,26,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0692,Flavoured Milk,Milk & Dairy,Tata,200ml bottle,81.69,174,65,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0693,Appalam,Packaged Food,Heritage,pack,100.66,201,39,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0694,Flavoured Milk,Milk & Dairy,Nandini,200ml bottle,46.18,320,68,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0695,Wheat,"Rice, Pulses & Grains",Local,1kg,442.27,265,60,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0696,Jam,Packaged Food,Milky Mist,500g jar,248.78,24,22,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0697,Papaya,Fresh Fruits,Aashirvaad,1kg,125.95,83,70,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0698,Fish,"Meat, Fish & Eggs",Heritage,1kg,429.64,308,68,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0699,Full Cream Milk,Milk & Dairy,Heritage,1L,356.54,138,13,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0700,Brinjal,Fresh Vegetables,Local,1kg,32.75,334,65,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0701,Milk Powder,Milk & Dairy,Aashirvaad,500g pack,435.55,149,51,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0702,Full Cream Milk,Milk & Dairy,Tata,1L,212.8,36,54,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0703,Brinjal,Fresh Vegetables,Nandini,1kg,497.06,32,72,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0704,Full Cream Milk,Milk & Dairy,Heritage,1L,468.74,314,10,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0705,Fruit Juice,Beverages,Local,1L bottle,290.97,313,20,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0706,Wheat,"Rice, Pulses & Grains",Heritage,1kg,442.44,49,28,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0707,Appalam,Packaged Food,Lipton,pack,83.32,163,24,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0708,Appalam,Packaged Food,Heritage,pack,154.24,347,29,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0709,Jam,Packaged Food,Nandini,500g jar,104.41,203,29,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0710,Full Cream Milk,Milk & Dairy,Nandini,1L,349.28,318,42,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0711,Papaya,Fresh Fruits,Tata,1kg,372.37,173,76,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0712,Full Cream Milk,Milk & Dairy,Local,1L,246.17,286,40,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0713,Fruit Juice,Beverages,Heritage,1L bottle,320.38,273,16,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0714,Tea Powder,Beverages,Heritage,250g pack,331.51,302,67,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0715,Jam,Packaged Food,Amul,500g jar,427.12,350,23,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0716,Fish,"Meat, Fish & Eggs",Milky Mist,1kg,344.47,129,16,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0717,Milk Powder,Milk & Dairy,Milky Mist,500g pack,204.66,47,43,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0718,Appalam,Packaged Food,Local,pack,71.75,136,30,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0719,Fish,"Meat, Fish & Eggs",Nandini,1kg,487.43,89,23,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0720,Milk Powder,Milk & Dairy,Aashirvaad,500g pack,478.13,277,43,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0721,Tea Powder,Beverages,Milky Mist,250g pack,333.97,275,80,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0722,Papaya,Fresh Fruits,Milky Mist,1kg,324.05,269,22,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0723,Papaya,Fresh Fruits,Nandini,1kg,248.7,263,78,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0724,Fruit Juice,Beverages,Local,1L bottle,328.14,41,48,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0725,Full Cream Milk,Milk & Dairy,Aashirvaad,1L,418.9,306,66,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0726,Appalam,Packaged Food,Local,pack,210.15,147,24,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0727,Wheat,"Rice, Pulses & Grains",Amul,1kg,272.8,274,69,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0728,Milk Powder,Milk & Dairy,Lipton,500g pack,126.63,113,12,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0729,Fruit Juice,Beverages,Nandini,1L bottle,299.96,137,35,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0730,Papaya,Fresh Fruits,Amul,1kg,191.86,193,75,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0731,Papaya,Fresh Fruits,Milky Mist,1kg,437.14,47,31,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0732,Full Cream Milk,Milk & Dairy,Local,1L,58.2,216,59,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0733,Papaya,Fresh Fruits,Tata,1kg,222.35,186,13,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0734,Wheat,"Rice, Pulses & Grains",Heritage,1kg,359.96,198,78,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0735,Full Cream Milk,Milk & Dairy,Tata,1L,101.27,255,70,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0736,Full Cream Milk,Milk & Dairy,Tata,1L,259.54,258,51,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0737,Milk Powder,Milk & Dairy,Amul,500g pack,163.41,116,59,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0738,Brinjal,Fresh Vegetables,Local,1kg,171.5,273,78,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0739,Fruit Juice,Beverages,Tata,1L bottle,31.7,50,57,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0740,Milk Powder,Milk & Dairy,Lipton,500g pack,248.23,349,60,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0741,Brinjal,Fresh Vegetables,Tata,1kg,460.14,316,58,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0742,Papaya,Fresh Fruits,Milky Mist,1kg,462.2,199,54,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0743,Fish,"Meat, Fish & Eggs",Heritage,1kg,364.86,4,48,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0744,Appalam,Packaged Food,Heritage,pack,344.01,325,69,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0745,Papaya,Fresh Fruits,Aashirvaad,1kg,179.94,139,26,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0746,Appalam,Packaged Food,Milky Mist,pack,176.09,315,10,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0747,Fruit Juice,Beverages,Milky Mist,1L bottle,129.91,126,52,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0748,Appalam,Packaged Food,Tata,pack,369.3,30,45,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0749,Fruit Juice,Beverages,Heritage,1L bottle,357.44,325,61,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0750,Tea Powder,Beverages,Milky Mist,250g pack,382.8,152,68,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0751,Flavoured Milk,Milk & Dairy,Milky Mist,200ml bottle,65.73,60,50,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0752,Fish,"Meat, Fish & Eggs",Lipton,1kg,46.26,128,56,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0753,Full Cream Milk,Milk & Dairy,Local,1L,466.66,120,73,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0754,Flavoured Milk,Milk & Dairy,Tata,200ml bottle,79.76,97,64,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0755,Flavoured Milk,Milk & Dairy,Heritage,200ml bottle,52.29,31,21,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0756,Papaya,Fresh Fruits,Tata,1kg,477.91,274,32,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0757,Appalam,Packaged Food,Local,pack,31.27,220,39,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0758,Milk Powder,Milk & Dairy,Milky Mist,500g pack,228.74,115,77,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0759,Milk Powder,Milk & Dairy,Tata,500g pack,22.53,13,63,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0760,Papaya,Fresh Fruits,Milky Mist,1kg,287.61,284,19,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0761,Jam,Packaged Food,Local,500g jar,159.2,260,20,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0762,Papaya,Fresh Fruits,Lipton,1kg,346.72,117,66,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0763,Jam,Packaged Food,Milky Mist,500g jar,230.36,73,16,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0764,Tea Powder,Beverages,Aashirvaad,250g pack,418.24,114,56,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0765,Flavoured Milk,Milk & Dairy,Amul,200ml bottle,251.11,215,66,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0766,Fruit Juice,Beverages,Local,1L bottle,373.73,85,56,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0767,Fruit Juice,Beverages,Heritage,1L bottle,476.04,137,31,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0768,Flavoured Milk,Milk & Dairy,Milky Mist,200ml bottle,391.48,127,47,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0769,Wheat,"Rice, Pulses & Grains",Milky Mist,1kg,116.52,262,48,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0770,Brinjal,Fresh Vegetables,Milky Mist,1kg,98.39,307,78,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0771,Fish,"Meat, Fish & Eggs",Local,1kg,163.52,9,48,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0772,Milk Powder,Milk & Dairy,Local,500g pack,52.06,48,80,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0773,Appalam,Packaged Food,Local,pack,269.51,154,10,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0774,Full Cream Milk,Milk & Dairy,Local,1L,240.02,108,32,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0775,Wheat,"Rice, Pulses & Grains",Heritage,1kg,237.41,179,45,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0776,Appalam,Packaged Food,Tata,pack,170.85,165,52,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0777,Wheat,"Rice, Pulses & Grains",Milky Mist,1kg,329.21,330,17,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0778,Milk Powder,Milk & Dairy,Aashirvaad,500g pack,375.39,56,26,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0779,Jam,Packaged Food,Amul,500g jar,350.52,50,56,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0780,Milk Powder,Milk & Dairy,Lipton,500g pack,499.8,112,42,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0781,Jam,Packaged Food,Nandini,500g jar,26.59,332,36,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0782,Flavoured Milk,Milk & Dairy,Lipton,200ml bottle,348.61,6,36,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0783,Jam,Packaged Food,Lipton,500g jar,445.43,227,72,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0784,Appalam,Packaged Food,Milky Mist,pack,63.96,305,19,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0785,Wheat,"Rice, Pulses & Grains",Tata,1kg,430.68,15,69,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0786,Fruit Juice,Beverages,Local,1L bottle,498.89,287,48,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0787,Fish,"Meat, Fish & Eggs",Milky Mist,1kg,44.61,212,79,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0788,Wheat,"Rice, Pulses & Grains",Lipton,1kg,382.17,4,79,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0789,Fruit Juice,Beverages,Heritage,1L bottle,272.12,350,33,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0790,Papaya,Fresh Fruits,Aashirvaad,1kg,233.46,38,34,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0791,Flavoured Milk,Milk & Dairy,Lipton,200ml bottle,314.49,347,56,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0792,Milk Powder,Milk & Dairy,Nandini,500g pack,173.45,129,10,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0793,Tea Powder,Beverages,Heritage,250g pack,406.98,174,65,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0794,Tea Powder,Beverages,Nandini,250g pack,139.64,307,65,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0795,Appalam,Packaged Food,Nandini,pack,194.36,77,41,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0796,Wheat,"Rice, Pulses & Grains",Lipton,1kg,37.93,166,10,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0797,Appalam,Packaged Food,Amul,pack,267.47,215,51,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0798,Full Cream Milk,Milk & Dairy,Amul,1L,325.15,342,60,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0799,Brinjal,Fresh Vegetables,Aashirvaad,1kg,312.16,255,27,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0800,Flavoured Milk,Milk & Dairy,Heritage,200ml bottle,348.28,31,67,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0801,Papaya,Fresh Fruits,Heritage,1kg,322.28,128,14,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0802,Wheat,"Rice, Pulses & Grains",Milky Mist,1kg,133.31,40,11,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0803,Milk Powder,Milk & Dairy,Tata,500g pack,180.16,323,11,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0804,Fruit Juice,Beverages,Amul,1L bottle,345.34,103,27,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0805,Fish,"Meat, Fish & Eggs",Heritage,1kg,161.85,66,52,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0806,Fish,"Meat, Fish & Eggs",Aashirvaad,1kg,363.63,42,37,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0807,Wheat,"Rice, Pulses & Grains",Nandini,1kg,317.76,130,46,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0808,Jam,Packaged Food,Lipton,500g jar,167.13,45,28,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0809,Full Cream Milk,Milk & Dairy,Amul,1L,335.24,10,60,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0810,Papaya,Fresh Fruits,Aashirvaad,1kg,92.24,336,65,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0811,Jam,Packaged Food,Nandini,500g jar,24.93,208,36,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0812,Brinjal,Fresh Vegetables,Milky Mist,1kg,374.27,141,13,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0813,Tea Powder,Beverages,Heritage,250g pack,223.63,68,49,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0814,Wheat,"Rice, Pulses & Grains",Aashirvaad,1kg,211.11,132,16,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0815,Tea Powder,Beverages,Nandini,250g pack,219.28,75,50,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0816,Papaya,Fresh Fruits,Nandini,1kg,66.27,215,31,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0817,Milk Powder,Milk & Dairy,Milky Mist,500g pack,243.06,219,25,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0818,Flavoured Milk,Milk & Dairy,Heritage,200ml bottle,125.51,306,52,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0819,Tea Powder,Beverages,Milky Mist,250g pack,130.56,13,54,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0820,Tea Powder,Beverages,Milky Mist,250g pack,150.18,232,68,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0821,Full Cream Milk,Milk & Dairy,Local,1L,281.34,25,35,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0822,Tea Powder,Beverages,Nandini,250g pack,253.85,211,51,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0823,Flavoured Milk,Milk & Dairy,Amul,200ml bottle,168.98,119,24,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0824,Brinjal,Fresh Vegetables,Aashirvaad,1kg,233.29,303,45,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0825,Fish,"Meat, Fish & Eggs",Amul,1kg,367.65,190,73,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0826,Papaya,Fresh Fruits,Lipton,1kg,421.3,83,30,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0827,Fruit Juice,Beverages,Lipton,1L bottle,496.13,234,59,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0828,Fish,"Meat, Fish & Eggs",Aashirvaad,1kg,130.74,157,55,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0829,Brinjal,Fresh Vegetables,Tata,1kg,323.5,345,41,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0830,Milk Powder,Milk & Dairy,Nandini,500g pack,324.21,302,54,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0831,Full Cream Milk,Milk & Dairy,Nandini,1L,260.39,278,57,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0832,Milk Powder,Milk & Dairy,Heritage,500g pack,273.8,238,52,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0833,Wheat,"Rice, Pulses & Grains",Amul,1kg,154.78,305,11,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0834,Appalam,Packaged Food,Tata,pack,88.07,45,54,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0835,Flavoured Milk,Milk & Dairy,Lipton,200ml bottle,210.8,243,24,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0836,Tea Powder,Beverages,Milky Mist,250g pack,128.58,32,54,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0837,Milk Powder,Milk & Dairy,Nandini,500g pack,285.24,103,47,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0838,Fruit Juice,Beverages,Amul,1L bottle,162.08,227,30,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0839,Full Cream Milk,Milk & Dairy,Local,1L,70.72,92,46,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0840,Brinjal,Fresh Vegetables,Lipton,1kg,25.64,72,54,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0841,Appalam,Packaged Food,Heritage,pack,404.08,71,58,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0842,Milk Powder,Milk & Dairy,Milky Mist,500g pack,195.33,179,10,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0843,Papaya,Fresh Fruits,Local,1kg,258.5,105,39,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0844,Fruit Juice,Beverages,Aashirvaad,1L bottle,75.04,116,56,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0845,Brinjal,Fresh Vegetables,Nandini,1kg,438.1,142,11,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0846,Full Cream Milk,Milk & Dairy,Nandini,1L,426.85,275,34,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0847,Fish,"Meat, Fish & Eggs",Local,1kg,208.03,124,41,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0848,Papaya,Fresh Fruits,Lipton,1kg,405.22,291,24,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0849,Tea Powder,Beverages,Local,250g pack,129.28,118,36,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0850,Tea Powder,Beverages,Heritage,250g pack,36.24,34,47,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0851,Flavoured Milk,Milk & Dairy,Heritage,200ml bottle,127.26,56,36,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0852,Fruit Juice,Beverages,Local,1L bottle,483.15,60,35,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0853,Tea Powder,Beverages,Tata,250g pack,229.8,210,15,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0854,Papaya,Fresh Fruits,Lipton,1kg,36.23,309,27,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0855,Wheat,"Rice, Pulses & Grains",Local,1kg,159.98,110,60,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0856,Flavoured Milk,Milk & Dairy,Nandini,200ml bottle,138.67,228,37,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0857,Flavoured Milk,Milk & Dairy,Milky Mist,200ml bottle,421.24,251,62,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0858,Jam,Packaged Food,Milky Mist,500g jar,110.78,40,49,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0859,Appalam,Packaged Food,Local,pack,86.49,74,76,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0860,Wheat,"Rice, Pulses & Grains",Tata,1kg,450.68,205,38,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0861,Milk Powder,Milk & Dairy,Milky Mist,500g pack,446.71,27,70,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0862,Fish,"Meat, Fish & Eggs",Aashirvaad,1kg,468.87,262,47,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0863,Flavoured Milk,Milk & Dairy,Amul,200ml bottle,22.98,76,71,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0864,Flavoured Milk,Milk & Dairy,Local,200ml bottle,210.44,159,65,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0865,Tea Powder,Beverages,Heritage,250g pack,404.14,323,45,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0866,Fruit Juice,Beverages,Milky Mist,1L bottle,362.33,132,33,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0867,Fruit Juice,Beverages,Heritage,1L bottle,139.33,168,29,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0868,Fruit Juice,Beverages,Aashirvaad,1L bottle,226.7,8,74,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0869,Tea Powder,Beverages,Local,250g pack,105.09,156,26,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0870,Papaya,Fresh Fruits,Aashirvaad,1kg,210.75,100,41,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0871,Brinjal,Fresh Vegetables,Lipton,1kg,188.54,302,71,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0872,Jam,Packaged Food,Nandini,500g jar,93.23,105,80,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0873,Appalam,Packaged Food,Aashirvaad,pack,138.0,147,44,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0874,Wheat,"Rice, Pulses & Grains",Lipton,1kg,63.28,301,66,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0875,Brinjal,Fresh Vegetables,Aashirvaad,1kg,341.44,47,51,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0876,Papaya,Fresh Fruits,Aashirvaad,1kg,362.68,39,72,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0877,Flavoured Milk,Milk & Dairy,Lipton,200ml bottle,162.94,248,37,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0878,Fruit Juice,Beverages,Amul,1L bottle,463.83,139,78,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0879,Wheat,"Rice, Pulses & Grains",Lipton,1kg,40.13,308,60,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0880,Full Cream Milk,Milk & Dairy,Local,1L,229.74,176,28,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0881,Milk Powder,Milk & Dairy,Milky Mist,500g pack,327.38,313,46,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0882,Brinjal,Fresh Vegetables,Lipton,1kg,245.14,259,23,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0883,Jam,Packaged Food,Tata,500g jar,44.11,16,44,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0884,Milk Powder,Milk & Dairy,Amul,500g pack,474.43,91,63,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0885,Wheat,"Rice, Pulses & Grains",Heritage,1kg,297.3,350,46,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0886,Appalam,Packaged Food,Milky Mist,pack,380.64,298,58,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0887,Wheat,"Rice, Pulses & Grains",Local,1kg,299.87,251,35,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0888,Fish,"Meat, Fish & Eggs",Milky Mist,1kg,120.66,10,19,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0889,Fish,"Meat, Fish & Eggs",Local,1kg,243.91,65,64,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0890,Appalam,Packaged Food,Heritage,pack,463.97,121,35,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0891,Wheat,"Rice, Pulses & Grains",Lipton,1kg,68.35,298,22,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0892,Tea Powder,Beverages,Nandini,250g pack,329.4,335,44,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0893,Full Cream Milk,Milk & Dairy,Aashirvaad,1L,112.05,19,30,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0894,Fish,"Meat, Fish & Eggs",Aashirvaad,1kg,425.88,154,78,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0895,Papaya,Fresh Fruits,Local,1kg,315.85,266,52,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0896,Fruit Juice,Beverages,Aashirvaad,1L bottle,23.5,318,38,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0897,Brinjal,Fresh Vegetables,Amul,1kg,448.45,226,17,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0898,Fruit Juice,Beverages,Tata,1L bottle,464.04,31,10,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0899,Brinjal,Fresh Vegetables,Amul,1kg,193.11,212,27,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0900,Fruit Juice,Beverages,Lipton,1L bottle,343.48,44,30,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0901,Jam,Packaged Food,Lipton,500g jar,487.19,16,28,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0902,Jam,Packaged Food,Tata,500g jar,484.27,321,67,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0903,Flavoured Milk,Milk & Dairy,Lipton,200ml bottle,226.63,15,15,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0904,Milk Powder,Milk & Dairy,Amul,500g pack,456.24,199,13,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0905,Papaya,Fresh Fruits,Milky Mist,1kg,248.58,346,26,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0906,Brinjal,Fresh Vegetables,Amul,1kg,162.06,91,12,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0907,Fish,"Meat, Fish & Eggs",Milky Mist,1kg,389.27,343,41,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0908,Jam,Packaged Food,Tata,500g jar,478.84,80,46,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0909,Appalam,Packaged Food,Amul,pack,180.99,257,44,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0910,Papaya,Fresh Fruits,Amul,1kg,121.02,170,74,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0911,Brinjal,Fresh Vegetables,Heritage,1kg,195.06,108,57,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0912,Wheat,"Rice, Pulses & Grains",Tata,1kg,499.6,14,74,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0913,Fish,"Meat, Fish & Eggs",Milky Mist,1kg,220.13,30,50,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0914,Tea Powder,Beverages,Milky Mist,250g pack,410.97,8,13,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0915,Fruit Juice,Beverages,Tata,1L bottle,434.77,312,70,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0916,Tea Powder,Beverages,Milky Mist,250g pack,299.46,167,27,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0917,Jam,Packaged Food,Aashirvaad,500g jar,63.3,174,64,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0918,Wheat,"Rice, Pulses & Grains",Lipton,1kg,40.6,116,67,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0919,Fruit Juice,Beverages,Aashirvaad,1L bottle,179.94,150,70,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0920,Flavoured Milk,Milk & Dairy,Local,200ml bottle,237.77,290,28,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0921,Fish,"Meat, Fish & Eggs",Milky Mist,1kg,259.96,293,42,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0922,Full Cream Milk,Milk & Dairy,Aashirvaad,1L,274.64,223,25,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0923,Wheat,"Rice, Pulses & Grains",Tata,1kg,69.58,242,49,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0924,Papaya,Fresh Fruits,Milky Mist,1kg,71.47,213,40,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0925,Milk Powder,Milk & Dairy,Aashirvaad,500g pack,27.61,346,60,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0926,Tea Powder,Beverages,Nandini,250g pack,490.53,66,44,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0927,Brinjal,Fresh Vegetables,Aashirvaad,1kg,301.36,148,37,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0928,Appalam,Packaged Food,Amul,pack,182.95,193,27,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0929,Appalam,Packaged Food,Nandini,pack,47.71,116,74,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0930,Papaya,Fresh Fruits,Aashirvaad,1kg,251.53,60,58,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0931,Full Cream Milk,Milk & Dairy,Lipton,1L,171.32,198,61,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0932,Jam,Packaged Food,Milky Mist,500g jar,46.94,222,73,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0933,Appalam,Packaged Food,Aashirvaad,pack,150.33,347,46,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0934,Brinjal,Fresh Vegetables,Tata,1kg,223.03,239,57,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0935,Appalam,Packaged Food,Milky Mist,pack,117.91,128,25,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0936,Fruit Juice,Beverages,Aashirvaad,1L bottle,368.45,1,59,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0937,Appalam,Packaged Food,Nandini,pack,441.26,89,66,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0938,Fruit Juice,Beverages,Heritage,1L bottle,77.94,160,53,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0939,Flavoured Milk,Milk & Dairy,Heritage,200ml bottle,336.8,109,18,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0940,Fish,"Meat, Fish & Eggs",Local,1kg,252.89,171,64,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0941,Milk Powder,Milk & Dairy,Nandini,500g pack,350.49,42,76,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0942,Fish,"Meat, Fish & Eggs",Milky Mist,1kg,446.36,111,37,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0943,Tea Powder,Beverages,Tata,250g pack,340.44,147,14,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0944,Flavoured Milk,Milk & Dairy,Heritage,200ml bottle,462.89,93,41,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0945,Tea Powder,Beverages,Aashirvaad,250g pack,68.19,11,35,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0946,Jam,Packaged Food,Tata,500g jar,156.08,49,33,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0947,Jam,Packaged Food,Aashirvaad,500g jar,479.27,27,49,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0948,Brinjal,Fresh Vegetables,Aashirvaad,1kg,69.31,240,27,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0949,Flavoured Milk,Milk & Dairy,Local,200ml bottle,399.45,1,28,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0950,Tea Powder,Beverages,Aashirvaad,250g pack,266.15,144,22,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0951,Fruit Juice,Beverages,Milky Mist,1L bottle,94.24,195,25,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0952,Jam,Packaged Food,Tata,500g jar,36.17,84,55,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0953,Fish,"Meat, Fish & Eggs",Aashirvaad,1kg,417.52,164,35,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0954,Jam,Packaged Food,Amul,500g jar,322.74,7,46,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0955,Appalam,Packaged Food,Aashirvaad,pack,406.92,327,23,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0956,Wheat,"Rice, Pulses & Grains",Lipton,1kg,139.78,27,31,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0957,Full Cream Milk,Milk & Dairy,Tata,1L,283.8,348,32,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0958,Appalam,Packaged Food,Tata,pack,318.18,129,49,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0959,Wheat,"Rice, Pulses & Grains",Nandini,1kg,106.79,133,35,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0960,Jam,Packaged Food,Lipton,500g jar,77.27,339,45,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0961,Fruit Juice,Beverages,Nandini,1L bottle,432.5,223,36,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0962,Fruit Juice,Beverages,Tata,1L bottle,302.37,142,23,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0963,Tea Powder,Beverages,Tata,250g pack,178.74,229,21,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0964,Jam,Packaged Food,Tata,500g jar,71.59,200,24,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0965,Flavoured Milk,Milk & Dairy,Milky Mist,200ml bottle,297.87,181,49,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0966,Flavoured Milk,Milk & Dairy,Lipton,200ml bottle,229.6,265,60,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0967,Flavoured Milk,Milk & Dairy,Milky Mist,200ml bottle,377.29,197,74,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0968,Flavoured Milk,Milk & Dairy,Heritage,200ml bottle,454.25,74,51,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0969,Brinjal,Fresh Vegetables,Heritage,1kg,176.45,202,44,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0970,Brinjal,Fresh Vegetables,Nandini,1kg,283.11,18,26,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0971,Flavoured Milk,Milk & Dairy,Lipton,200ml bottle,114.95,58,17,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0972,Full Cream Milk,Milk & Dairy,Aashirvaad,1L,58.43,289,58,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0973,Brinjal,Fresh Vegetables,Tata,1kg,282.5,215,80,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0974,Jam,Packaged Food,Amul,500g jar,344.77,195,52,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0975,Fruit Juice,Beverages,Amul,1L bottle,96.66,327,60,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0976,Full Cream Milk,Milk & Dairy,Aashirvaad,1L,206.0,218,69,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0977,Full Cream Milk,Milk & Dairy,Aashirvaad,1L,271.02,156,12,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0978,Jam,Packaged Food,Aashirvaad,500g jar,382.86,185,13,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0979,Flavoured Milk,Milk & Dairy,Heritage,200ml bottle,480.84,217,68,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0980,Milk Powder,Milk & Dairy,Milky Mist,500g pack,286.47,348,22,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0981,Fruit Juice,Beverages,Aashirvaad,1L bottle,178.07,243,28,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0982,Jam,Packaged Food,Aashirvaad,500g jar,166.83,254,13,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0983,Fish,"Meat, Fish & Eggs",Lipton,1kg,159.37,59,21,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0984,Jam,Packaged Food,Amul,500g jar,438.5,290,55,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0985,Jam,Packaged Food,Tata,500g jar,374.75,249,17,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0986,Tea Powder,Beverages,Milky Mist,250g pack,452.3,338,48,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0987,Tea Powder,Beverages,Milky Mist,250g pack,415.69,202,64,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0988,Brinjal,Fresh Vegetables,Local,1kg,309.82,218,21,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0989,Papaya,Fresh Fruits,Milky Mist,1kg,402.73,216,25,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0990,Fish,"Meat, Fish & Eggs",Tata,1kg,325.5,291,18,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF0991,Papaya,Fresh Fruits,Lipton,1kg,359.23,245,20,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0992,Wheat,"Rice, Pulses & Grains",Milky Mist,1kg,361.13,122,30,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0993,Tea Powder,Beverages,Amul,250g pack,291.68,207,68,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0994,Wheat,"Rice, Pulses & Grains",Amul,1kg,403.62,97,12,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0995,Milk Powder,Milk & Dairy,Lipton,500g pack,25.87,315,71,Salem Wholesale Hub,2026-09-29 00:00:00
+TNF0996,Fruit Juice,Beverages,Amul,1L bottle,239.88,71,80,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0997,Flavoured Milk,Milk & Dairy,Nandini,200ml bottle,59.45,139,69,Sri Lakshmi Traders,2026-09-29 00:00:00
+TNF0998,Fish,"Meat, Fish & Eggs",Amul,1kg,343.47,113,39,Tiruchirappalli Food Supply,2026-09-29 00:00:00
+TNF0999,Fish,"Meat, Fish & Eggs",Tata,1kg,96.32,95,55,Chennai Wholesale Foods,2026-09-29 00:00:00
+TNF1000,Fruit Juice,Beverages,Aashirvaad,1L bottle,109.52,193,30,Sri Lakshmi Traders,2026-09-29 00:00:00
